@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Kcepriu/telegram-bot-strapi.git"
+    "url": "git+ssh://git@github.com/Kcepriu/telegram-bot-strapi.git"
   },
   "dependencies": {
     "@strapi/design-system": "^1.6.3",
