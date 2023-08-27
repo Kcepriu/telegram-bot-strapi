@@ -1,0 +1,27 @@
+{
+    "kind": "collectionType",
+    "collectionName": "chat",
+    "info": {
+        "singularName": "chat",
+        "pluralName": "chat",
+        "displayName": "Chat"
+    },
+    "options": {
+        "draftAndPublish": false,
+        "comment": ""
+    },
+    "attributes": {
+        "chatId": {
+            "type": "integer"
+        },
+        "clientName": {
+            "type": "string"
+        },
+        "lastMessage": {
+            "type": "string"
+        },
+        "isSendInformation": {
+            "type": "boolean"
+        }
+    }
+}

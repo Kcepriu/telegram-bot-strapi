@@ -1,0 +1,41 @@
+{
+    "kind": "collectionType",
+    "collectionName": "telegram",
+    "info": {
+        "singularName": "telegram",
+        "pluralName": "telegram",
+        "displayName": "Telegram"
+    },
+    "options": {
+        "draftAndPublish": false,
+        "comment": ""
+    },
+    "pluginOptions": {
+        "content-manager": {
+            "visible": false
+        },
+        "content-type-builder": {
+            "visible": false
+        }
+    },
+    "attributes": {
+        "chatId": {
+            "type": "string",
+            "regex": "^\\d+$",
+            "required": true,
+            "unique": true
+        },
+        "clientName": {
+            "type": "string",
+            "default": ""
+        },
+        "lastMessage": {
+            "type": "string",
+            "default": ""
+        },
+        "isSendInformation": {
+            "type": "boolean",
+            "default": false
+        }
+    }
+}

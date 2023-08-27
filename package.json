@@ -1,0 +1,70 @@
+{
+  "name": "telegram-bot-strapi",
+  "version": "1.1.0",
+  "access": "public",
+  "description": "Telegram bot for sending messages.",
+  "strapi": {
+    "name": "telegram-bot-strapi",
+    "description": "Telegram bot for sending messages.",
+    "kind": "plugin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Kcepriu/telegram-bot-strapi.git"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "prop-types": "^15.7.2",
+    "react-icons": "^4.10.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@strapi/typescript-utils": "^4.6.0",
+    "@types/node-telegram-bot-api": "^0.61.7",
+    "@types/react": "^17.0.53",
+    "@types/react-dom": "^18.0.28",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.26",
+    "@types/uuid": "^9.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6",
+    "typescript": "5.0.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6",
+    "@strapi/strapi": "^4.0.0"
+  },
+  "resolutions": {
+    "yargs": "^17.2.1"
+  },
+  "author": {
+    "name": "Serhii Kostiuchenko",
+    "email": "kcepriu@gmail.com",
+    "url": "https://www.linkedin.com/in/serhii-kostiuchenko"
+  },
+  "maintainers": [
+    {
+      "name": "Serhii Kostiuchenko",
+      "email": "kcepriu@gmail.com",
+      "url": "https://www.linkedin.com/in/serhii-kostiuchenko"
+    }
+  ],
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "develop": "tsc -p tsconfig.server.json -w",
+    "build": "tsc -p tsconfig.server.json",
+    "build-admin": "tsc -p tsconfig.json"
+  },
+  "license": "MIT"
+}

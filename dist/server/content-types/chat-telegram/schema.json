@@ -1,0 +1,27 @@
+{
+    "kind": "collectionType",
+    "collectionName": "chat_telegrams",
+    "info": {
+        "singularName": "chatTelegram",
+        "pluralName": "chatTelegram",
+        "displayName": "ChatTelegram"
+    },
+    "options": {
+        "draftAndPublish": false,
+        "comment": ""
+    },
+    "attributes": {
+        "chatId": {
+            "type": "integer"
+        },
+        "clientName": {
+            "type": "string"
+        },
+        "lastMessage": {
+            "type": "string"
+        },
+        "isSendInformation": {
+            "type": "boolean"
+        }
+    }
+}
